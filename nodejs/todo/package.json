@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js",
+    "command-test" : "node app/index.js test",
+    "command-read" : "node app/index.js read"
+  },
+  "author": "zuy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
